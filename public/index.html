@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <button class="botao-gravao">Novo</button>
+  <p class="contatos">Contatos cadastrados: O</p>
+
+
+  <script>
+    var contatos = document.querySelector('.contatos');
+    var total = 0;
+    var botao = document.querySelector('click', function (event) {
+      total++;
+      contatos.textContent = "Contatos cadastrados " + total;
+    });
+  </script>
+
+</body>
+
+</html>
